@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.cucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 0.098 sec <<< FAILURE! - in testRunner.cucumberRunner
+When launch the application on browser(Scenario: launch the browser in Chrome)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at commonUtility.base.accessApplicationURL(base.java:40)
+	at stepDefination.stepDefination.launch_the_application_on_browser(stepDefination.java:46)
+	at ✽.When launch the application on browser(src/test/resources/feature/google.feature:9)
+
+Scenario: launch the browser in Chrome  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at commonUtility.base.accessApplicationURL(base.java:40)
+	at stepDefination.stepDefination.launch_the_application_on_browser(stepDefination.java:46)
+	at ✽.When launch the application on browser(src/test/resources/feature/google.feature:9)
+

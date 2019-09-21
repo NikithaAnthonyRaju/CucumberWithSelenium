@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60010584,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Application URL \u0026 driver details from Configuration file",
+            "match": {
+              "location": "stepDefination.application_URL_and_driver_details()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#When reading a Json \"testData2222.json\""
+          }
+        ],
+        "line": 7,
+        "name": "launch the browser in Chrome",
+        "description": "",
+        "id": "google---launch-gmail;launch-the-browser-in-chrome",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33091,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Application URL \u0026 driver details from Configuration file",
+            "match": {
+              "location": "stepDefination.application_URL_and_driver_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 574438,
+              "error_message": "java.lang.NullPointerException\n\tat commonUtility.base.accessApplicationURL(base.java:40)\n\tat stepDefination.stepDefination.launch_the_application_on_browser(stepDefination.java:46)\n\tat ✽.When launch the application on browser(src/test/resources/feature/google.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "launch the application on browser",
+            "match": {
+              "location": "stepDefination.launch_the_application_on_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "navigate to forWork Page",
+            "match": {
+              "location": "stepDefination.navigate_to_forWork_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on Get Started button",
+            "match": {
+              "location": "stepDefination.click_on_Get_Started_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 37622,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Application URL \u0026 driver details from Configuration file",
+            "match": {
+              "location": "stepDefination.application_URL_and_driver_details()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "launch the browser in Firefox",
+        "description": "",
+        "id": "google---launch-gmail;launch-the-browser-in-firefox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29212,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Application URL \u0026 driver details from Configuration file",
+            "match": {
+              "location": "stepDefination.application_URL_and_driver_details()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Tag"
+          }
+        ]
+      }
+    ],
+    "name": "Google - launch Gmail",
+    "description": "",
+    "id": "google---launch-gmail",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/google.feature"
+  }
+]
